@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ********************************
+**********Global Css*****************
+*********************************** */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    color: rgb(71, 99, 255);
+
+}
+
+.continer {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+.continer h2 {
+    font-size: 50px;
+    font-weight: 650;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    margin-top: 20px;
+}
+
+ul {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* ...........Contact-section Css Start............ */
+
+.contact-section {
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: flex-start;
+    align-items: first baseline;
+}
+.form h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    position: absolute;
+    left: 116px;
+    top: 0px;
+ 
+}
+.main-form {
+
+    /* position: absolute;
+    left: 15px;
+    right: 50px; */
+    padding: 70px 25px;
+}
+
+.form-part {
+    position: absolute;
+    width: 28%;
+    background-color: white;
+    display: flex;
+    height: 90vh;
+    margin: 0 auto;
+    border-radius: 8px;
+    left: 542px;
+    top: 110px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+.form{
+        position: absolute;
+        width: 28%;
+        background-color: white;
+        display: flex;
+        height: 50vh;
+        margin: 0 auto;
+        border-radius: 8px;
+        left: 542px;
+        top: 110px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    }
+
+
+.form-part h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 550;
+    position: absolute;
+    left: 80px;
+    top: 6px;
+
+}
+
+.form-part p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    position: absolute;
+    left: 145px;
+    top: 44px;
+}
+.border p{
+    font-family: "Poppins", sans-serif;
+    color: rgb(231, 231, 231);
+    position: absolute;
+    left: -3px;
+    top: 62px;
+}
+form{
+    position: absolute;
+    left: 16px;
+    top: 90px;
+    margin-right: 13px;
+}
+input, select{
+    width: 100%;
+    padding: 14px 15px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.249);
+    border-radius: 6px;
+
+}
+.name input{
+    width: 196px;
+}
+.dateofbirth p{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    position: absolute;
+    left: 2px;
+    top: 177px;
+}
+.genderinfo p{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    position: absolute;
+    left: 5px;
+    top:243px;
+}
+.dateofbirth select{
+    width: 32%;
+    
+}
+.genderinfo input{
+    width: 32%;
+    
+}
+.para p{
+font-family: "Poppins", sans-serif;
+font-size: 10px;  
+position: absolute;
+left: 2px;
+top: 352px; 
+}
+.para2 p{
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;  
+    position: absolute;
+    left: 2px;
+    top: 317px; 
+    }
+    .btn input{
+
+        position: absolute;
+        left: 0px;
+        top: 400px;
+    }
+    .btn input{
+    background-color: #00a400;
+    font-weight: 600;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 190px;
+    height: 48px;
+    position: absolute;
+    left: 99px;
+    top: 405px;
+    transition: 0.6s;
+}
+.btn input:hover{
+    background-color: #057405;
+    font-weight: 600;
+    color: rgb(179, 249, 151);
+    transition: 0.6s;
+
+}
+.lastone p {
+
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    position: absolute;
+    left: 95px;
+    top: 465px;
+}
+.lastone a{
+    color: rgb(23, 95, 239);
+}
+.para a{
+    color: rgb(23, 95, 239);
+}
+.para2 a{
+    color: rgb(23, 95, 239);
+}
+.button input{
+    background-color:rgb(23, 95, 239) ;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.button input:hover{
+    background-color:rgb(19, 79, 198) ;
+    color: white;
+}
+.last a{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color:rgb(23, 95, 239) ;
+    position: absolute;
+    left: 54px;
+    top: 268px;
+}
+.last2 a{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color:rgb(23, 95, 239) ;
+    position: absolute;
+    left: 206px;
+    top: 268px;
+}
